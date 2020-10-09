@@ -41,14 +41,15 @@ where $y_i$ is the ith observation and $\hat{y}_i$ is the prediction  for that o
 2. Visualised and Modeled the trend , seasonality and noise from the time series data.
 3. Used Arima models for forecating the total fares in months after June 2015.
 
-<b> ML Models </b>
-2. Split the data sample into train and validation set using first 80% in train set and the last 205 as validation set.
-1. Used various models(Linear regression , Random Forest Regression, light GBM boosting) to train the dataset and was evaluated using validation dataset. Evaluation metric used was Root mean Squared Error(RMSE) and also calculated explained variance score(EVS)
+<b> ML Models </b> <br>
+1. Split the data sample into train and validation set using first 80% in train set and the last 20% as validation set.
+2. Used various models(Linear regression , Random Forest Regression, light GBM boosting) to train the dataset and was evaluated using validation dataset. Evaluation metric used was Root mean Squared Error(RMSE) and also calculated explained variance score(EVS)
 
 <b> Conclusions: </b>
 RMSE for:<br>
-<b> Linear regression </b> : RMSE = 4.08 , EVS = 0.84
-<b> Random Forest Regression </b> : RMSE = 3.94   EVS = 0.87
+<b> Linear regression </b> : RMSE = 4.08 , EVS = 0.84<br>
+<b> Random Forest Regression </b> : RMSE = 3.94   EVS = 0.87<br>
+
 <b> Boosting(light GBM) ,/b> : RMSE = 3.8 EVS = 0.88
 
 
