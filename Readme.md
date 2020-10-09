@@ -11,7 +11,9 @@ RMSE is given as below:
 <div>$$ RMSE = \sqrt{\frac{1}{n} \sum^{n}_{i=1} (\hat{y}_i - y_i)^2} $$ </div><br>
 where $y_i$ is the ith observation and $\hat{y}_i$ is the prediction  for that observation
 
+
 <b>My Approach:</b><br>
+
 <b> 1. Data Exploration </b>
 1. Collected the 1st 5000000 datapoints from the train dataset(as total size of data is very large)
 2. Done basic understanding of data, like what variables are present, their datatypes,basic statistics of the variables.Found out that there are negative fare amounts in the data sample,maximum fare amount and maximum passenger count is too high
