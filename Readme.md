@@ -8,7 +8,7 @@
 
 RMSE is given as below:
 
-<span>$RMSE = \sqrt{\frac{1}{n} \sum^{n}_{i=1} (\hat{y}_i - y_i)^2}$ </span>
+<div>$$ RMSE = \sqrt{\frac{1}{n} \sum^{n}_{i=1} (\hat{y}_i - y_i)^2} $$ </div><br>
 where $y_i$ is the ith observation and $\hat{y}_i$ is the prediction  for that observation
 
 <b>My Approach:</b>
