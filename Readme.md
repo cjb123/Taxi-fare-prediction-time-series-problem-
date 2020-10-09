@@ -50,6 +50,6 @@ RMSE for:<br>
 <b> Linear regression </b> : RMSE = 4.08 , EVS = 0.84<br>
 <b> Random Forest Regression </b> : RMSE = 3.94   EVS = 0.87<br>
 
-<b> Boosting(light GBM) ,/b> : RMSE = 3.8 EVS = 0.88
+<b> Boosting(light GBM) </b> : RMSE = 3.8 EVS = 0.88
 
 
