@@ -7,7 +7,8 @@
 <b>Evaluation Metric</b> : The evaluation metric for this competition is the root mean-squared error or RMSE. RMSE measures the difference between the predictions of a model, and the corresponding ground truth. A large RMSE is equivalent to a large average error, so smaller values of RMSE are better. One nice property of RMSE is that the error is given in the units being measured, so you can tell very directly how incorrect the model might be on unseen data.
 
 RMSE is given as below:
-$RMSE = \sqrt{\frac{1}{n} \sum^{n}_{i=1} (\hat{y}_i - y_i)^2}$
+
+<span>$RMSE = \sqrt{\frac{1}{n} \sum^{n}_{i=1} (\hat{y}_i - y_i)^2}$ </span>
 where $y_i$ is the ith observation and $\hat{y}_i$ is the prediction  for that observation
 
 <b>My Approach:</b>
